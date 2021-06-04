@@ -1,0 +1,47 @@
+/* media pc */
+@media screen and (min-width: 1201px){
+    .separar{
+        border-left: 1px solid #c3c4c6;
+    }
+}
+
+/* media de tablet  */
+@media screen and (max-width: 1200px) and (min-width: 710px){
+    
+}
+
+/* media de celular */
+@media screen and (max-width: 709px){
+    
+
+}
+
+
+
+/* media queries para diferenciar ipad e ipad pro   */
+@media screen and (min-width: 992px){
+    .separar{
+        border-left: 1px solid #c3c4c6;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .separar{
+        border-left: none;
+    }
+}
+
+
+#corDoHr{
+    color: #c3c4c6;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: 
+    #ffffff;
+}
+
+.menu-link:hover{
+    color: #2382ff;
+}
