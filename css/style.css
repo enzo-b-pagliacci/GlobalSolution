@@ -3,16 +3,46 @@
     .separar{
         border-left: 1px solid #c3c4c6;
     }
+
+    .homecard {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+
 }
 
 /* media de tablet  */
 @media screen and (max-width: 1200px) and (min-width: 710px){
-    
+    .homecard {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .card-uteis-home {
+        margin-right: 2%;
+    }
+
 }
 
 /* media de celular */
 @media screen and (max-width: 709px){
-    
+    .homecard {
+        flex-direction: column;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .card-uteis-home {
+        margin-top: 2%;
+    }
+
+    .card-home-uteis {
+        margin-top: 2%;
+    }
 
 }
 
@@ -45,3 +75,23 @@
 .menu-link:hover{
     color: #2382ff;
 }
+
+.home-banner {
+    height: 100%;
+
+}
+
+.banner-home {
+    width: 100%;
+}
+
+.desctit {
+    margin-top: 2%;
+}
+
+.descricaosp {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;    
+}
+
