@@ -1,7 +1,12 @@
 /* media pc */
 @media screen and (min-width: 1201px){
-    .separar{
-        border-left: 1px solid #c3c4c6;
+   
+    .margin-card-meio{
+        margin-right: 5%;  
+    }
+    .card-central{
+        margin-left: 35%;
+        margin-right: 35%;
     }
 
     .homecard {
@@ -14,6 +19,12 @@
 
 /* media de tablet  */
 @media screen and (max-width: 1200px) and (min-width: 710px){
+  
+    
+    .margin-card-meio{
+        margin-right: 5%;  
+    }
+  
     .homecard {
         display: flex;
         justify-content: space-evenly;
@@ -25,6 +36,7 @@
     .card-uteis-home {
         margin-right: 2%;
     }
+
 
 }
 
@@ -76,6 +88,25 @@
     color: #2382ff;
 }
 
+
+.margin-cards{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;   
+}
+
+.icones{
+    margin-top: 2%;
+    font-size: 100px;
+}
+
+.botao-card{
+    padding: 0;
+    border:none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
 .home-banner {
     height: 100%;
 
@@ -94,4 +125,3 @@
     margin-right: 10%;
     text-align: justify;    
 }
-

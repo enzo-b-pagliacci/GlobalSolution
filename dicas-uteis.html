@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <title>Guliver Traveller</title>
+</head>
+
+<body class="bg-light">
+    <!-- Inicio menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand" href="index.html">Guliver Traveller</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="dicas-uteis.html">Dicas úteis</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="parques.html">Parques</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="quem-somos.html">Quem Somos</a>
+                    </li>
+                    <hr id="corDoHr" />
+                    <li class="nav-item nav-link separar">
+                        <a class="menu-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="cadastro.html">Cadastre-se</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fim menu -->
+
+    <!-- Inicio dos card -->
+
+    <div class="card-group margin-cards">
+        <div class="card margin-card-meio text-center">
+            <i class="fas fa-plane-departure icones" style="color: #008000"></i>
+            <div class="card-body">
+                <h5 class="card-title">Quando ir</h5>
+            </div>
+        </div>
+        <div class="card margin-card-meio text-center">
+            <i class="fas fa-thermometer-half icones" style="color: #588ad6"></i>
+            <div class="card-body">
+                <h5 class="card-title">Temperatura média anual</h5>
+            </div>
+        </div>
+        <div class="card text-center">
+            <i class="far fa-clock icones" style="color: #800080"></i>
+
+            <div class="card-body">
+                <h5 class="card-title">Fuso horário</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card linha 2 -->
+    <div class="card-group margin-cards">
+        <div class="card margin-card-meio text-center">
+            <i class="fas fa-user-clock icones" style="color: #004040"></i>
+            <div class="card-body">
+                <h5 class="card-title">Tempo médio de permanência</h5>
+            </div>
+        </div>
+        <div class="card margin-card-meio text-center">
+            <i class="fas fa-language icones" style="color: #e27e1b"></i>
+            <div class="card-body">
+                <h5 class="card-title">Idioma</h5>
+            </div>
+        </div>
+
+        <div class="card text-center">
+            <div class="">
+                <i class="fas fa-bolt icones" style="color: #0047b1; margin-right: 1%"></i>
+                <i class="fas fa-plug icones" style="color: #0047b1; margin-left: 1%"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Voltagem e tipo de tomada</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- card linha 3 -->
+    <div class="card-group margin-cards">
+        <div class="card margin-card-meio text-center">
+            <i class="fas fa-coins icones" style="color: #ecec00"></i>
+            <div class="card-body">
+                <h5 class="card-title">Moeda</h5>
+            </div>
+        </div>
+        <div class="card margin-card-meio text-center">
+            <i class="far fa-id-card icones" style="color: #7c0c4a"></i>
+            <div class="card-body">
+                <h5 class="card-title">Documentos necessários</h5>
+            </div>
+        </div>
+
+        <div class="card text-center">
+            <i class="fas fa-luggage-cart icones" style="color: #b00000"></i>
+            <div class="card-body">
+                <h5 class="card-title">Bagagem</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- card linha 4 -->
+
+    <!-- Button trigger modal -->
+    <div class="card-group margin-cards">
+        <div class="card text-center card-central">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fas fa-subway icones" style="color: #2cd3d3"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Como se locomover</h5>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fim dos card -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
