@@ -37,6 +37,11 @@
         margin-right: 2%;
     }
 
+    .card-central{
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
 
 }
 
@@ -125,3 +130,32 @@
     margin-right: 10%;
     text-align: justify;    
 }
+
+.btn-cor{
+    background-color: #2382ff;
+    color: #fff;
+}
+
+.btn-cor:hover{
+    background-color: #cacaca;
+    color: #2382ff;
+}
+
+.text-modal{
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.img-card{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.icones-parques{
+    margin-top: 5%;
+    font-size: 100px;
+}
+
