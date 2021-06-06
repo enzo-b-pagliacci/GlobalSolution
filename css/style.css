@@ -1,109 +1,151 @@
 /* media pc */
-@media screen and (min-width: 1201px){
-   
-    .margin-card-meio{
-        margin-right: 5%;  
-    }
-    .card-central{
+@media screen and (min-width: 1201px) {
+
+    .card-central {
         margin-left: 35%;
         margin-right: 35%;
     }
 
-    .homecard {
+    .home-dicasuteis {
         display: flex;
-        justify-content: space-evenly;
-        margin-top: 2%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .home-logo-parque {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .card-parque-tudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .car-parque {
+        text-align: justify;
+    }
+
+    .car-dicas {
+        text-align: justify;
+    }
+
+    .lo-parque {
+        margin-left: 14%;
+        margin-bottom: 2%;
     }
 
 }
 
 /* media de tablet  */
-@media screen and (max-width: 1200px) and (min-width: 710px){
-  
-    
-    .margin-card-meio{
-        margin-right: 5%;  
-    }
-  
-    .homecard {
+@media screen and (max-width: 1200px) and (min-width: 710px) {
+
+    .home-logo-parque {
         display: flex;
-        justify-content: space-evenly;
-        margin-top: 2%;
-        margin-left: 3%;
-        margin-right: 3%;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
-    .card-uteis-home {
-        margin-right: 2%;
+    .card-parque-tudo {
+        display: flex;
+        flex-direction: column;
     }
 
+    .car-parque {
+        text-align: justify;
+    }
 
+    .lo-parque {
+        margin-left: 14%;
+        margin-bottom: 2%;
+    }
 }
 
 /* media de celular */
-@media screen and (max-width: 709px){
-    .homecard {
-        flex-direction: column;
-        margin-left: 10vw;
-        margin-right: 10vw;
+@media screen and (max-width: 709px) {
+
+    .lo-parque {
+        display: flex;
+        justify-content: center;
     }
 
-    .card-uteis-home {
+    .car-parque {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .car-dicas {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
         margin-top: 2%;
     }
-
-    .card-home-uteis {
-        margin-top: 2%;
-    }
-
 }
 
 
 
 /* media queries para diferenciar ipad e ipad pro   */
-@media screen and (min-width: 992px){
-    .separar{
+@media screen and (min-width: 992px) {
+    .separar {
         border-left: 1px solid #c3c4c6;
     }
+
+    .home-dicasuteis {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+
 }
 
 @media screen and (max-width: 991px) {
-    .separar{
+    .separar {
         border-left: none;
+    }
+
+    .car-dicas {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 2%;
     }
 }
 
 
-#corDoHr{
+#corDoHr {
     color: #c3c4c6;
 }
 
-.menu-link{
+.menu-link {
     text-decoration: none;
-    color: 
-    #ffffff;
+    color:
+        #ffffff;
 }
 
-.menu-link:hover{
+.menu-link:hover {
     color: #2382ff;
 }
 
 
-.margin-cards{
+.margin-cards {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 3%;
-    margin-bottom: 3%;   
+    margin-bottom: 3%;
 }
 
-.icones{
+.icones {
     margin-top: 2%;
     font-size: 100px;
 }
 
-.botao-card{
+.botao-card {
     padding: 0;
-    border:none;
+    border: none;
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -123,5 +165,27 @@
 .descricaosp {
     margin-left: 10%;
     margin-right: 10%;
-    text-align: justify;    
+    text-align: justify;
+}
+
+.di-saimais {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+    margin-top: 1%;
+}
+
+.btn-saimais {
+    border: 2px solid #2382ff;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #212529;
+    font-size: 20px;
+}
+
+.btn-saimais:hover {
+    border: 2px solid #212529;
+    color: #2382ff;
 }
