@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <title>Guliver Traveller</title>
+</head>
+
+<body class="bg-light">
+    <!-- Inicio menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand" href="index.html">Guliver Traveller</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="dicas-uteis.html">Dicas úteis</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="parques.html">Parques</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="quem-somos.html">Quem Somos</a>
+                    </li>
+                    <hr id="corDoHr" />
+                    <li class="nav-item nav-link separar">
+                        <a class="menu-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="cadastro.html">Cadastre-se</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fim menu -->
+
+    <!-- Inicio dos card -->
+
+    <div class="card-group margin-cards">
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#quandoIrModal">
+                <div class="img-card">
+                    <img src="./img/logo-ibira.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </button>
+        </div>
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#tempMediaModal">
+                <div class="img-card">
+                    <img src="./img/logo-ceret.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </button>
+        </div>
+        <div class="card text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#fusoHorarioModal">
+                <i class="fas fa-tree icones-parques" style="color: green;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Jardin Botânico de São Paulo</h5>
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <!-- Card linha 2 -->
+    <div class="card-group  margin-cards">
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#fusoHorarioModal">
+                <i class="fas fa-tree icones-parques" style="color: green;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Piqueri</h5>
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </button>
+        </div>
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#fusoHorarioModal">
+                <i class="fas fa-tree icones-parques" style="color: green;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Parque da Independência</h5>
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </button>
+        </div>
+
+        <div class="card text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#fusoHorarioModal">
+                <i class="fas fa-tree icones-parques" style="color: green;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Parque Alfredo Volpi</h5>
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <!-- card linha 3 -->
+
+    <!-- Button trigger modal -->
+    <div class="card-group margin-cards">
+        <div class="card text-center card-central">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#comoLocomoverModal">
+                <i class="fas fa-tree icones-parques" style="color: green;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Parque Buenos Aires</h5>
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </button>
+        </div>
+    </div>
+    <!-- fim dos card -->
+
+    <!-- inicio modals  -->
+    <!-- Modal quando ir-->
+    <div class="modal fade" id="quandoIrModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Quando ir</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-plane-departure icones" style="color: #008000"></i>
+                    </div>
+                    <p class="text-modal">São Paulo possui as quatro estações muito bem definidas, mas a melhor época para se ir é quando a temperatura média é de 20°C  sendo isso nos meses de outono (março a junho) e  primavera(setembro a dezembro)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal quando ir-->
+
+
+    <!-- fim modals  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
