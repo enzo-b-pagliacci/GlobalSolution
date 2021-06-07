@@ -36,6 +36,28 @@
         margin-bottom: 2%;
     }
 
+    .card-quemsomos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2%;
+    }
+
+    .card-quem {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2%;
+    }
+
+
+
+    .car-somosquem {
+        text-align: justify;
+        margin-right: 13%;
+    }
+
+
 }
 
 /* media de tablet  */
@@ -57,7 +79,7 @@
         text-align: justify;
     }
 
-    .card-central{
+    .card-central {
         margin-left: 35%;
         margin-right: 35%;
     }
@@ -89,6 +111,13 @@
         text-align: justify;
         margin-top: 2%;
     }
+
+    .car-somosquem {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 2%;
+    }
 }
 
 
@@ -105,7 +134,24 @@
         justify-content: space-around;
     }
 
+    .card-quemsomos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2%;
+    }
 
+    .card-quem {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2%;
+    }
+
+    .car-somosquem {
+        text-align: justify;
+        margin-right: 13%;
+    }
 
 }
 
@@ -120,6 +166,14 @@
         text-align: justify;
         margin-top: 2%;
     }
+
+    .car-somosquem {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 2%;
+    }
+
 }
 
 
@@ -198,32 +252,30 @@
     color: #2382ff;
 }
 
-.btn-cor{
+.btn-cor {
     background-color: #2382ff;
     color: #fff;
 }
 
-.btn-cor:hover{
+.btn-cor:hover {
     background-color: #cacaca;
     color: #2382ff;
 }
 
-.text-modal{
+.text-modal {
     margin-top: 5%;
     text-align: justify;
 }
 
-.img-card{
+.img-card {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 20%;
     margin-right: 20%;
-    
+
 }
 
-.icones-parques{
+.icones-parques {
     margin-top: 5%;
     font-size: 100px;
 }
-
-
