@@ -36,6 +36,10 @@
         margin-bottom: 2%;
     }
 
+    .margin-card-meio {
+        margin-right: 5%;
+    }
+
 }
 
 /* media de tablet  */
@@ -57,7 +61,7 @@
         text-align: justify;
     }
 
-    .card-central{
+    .card-central {
         margin-left: 35%;
         margin-right: 35%;
     }
@@ -66,6 +70,10 @@
     .lo-parque {
         margin-left: 14%;
         margin-bottom: 2%;
+    }
+
+    .margin-card-meio {
+        margin-right: 5%;
     }
 }
 
@@ -198,32 +206,65 @@
     color: #2382ff;
 }
 
-.btn-cor{
+.btn-cor {
     background-color: #2382ff;
     color: #fff;
 }
 
-.btn-cor:hover{
+.btn-cor:hover {
     background-color: #cacaca;
     color: #2382ff;
 }
 
-.text-modal{
+.text-modal {
     margin-top: 5%;
     text-align: justify;
 }
 
-.img-card{
+.img-card {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 20%;
     margin-right: 20%;
-    
+
 }
 
-.icones-parques{
+.icones-parques {
     margin-top: 5%;
     font-size: 100px;
 }
 
+.star {
+    color: rgb(253, 237, 93);
+    margin-left: 2%;
+}
 
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa:before {
+    font-size: 25px;
+    content: '\f005';
+    color: #FC0;
+}
+
+.estrelas input[type=radio]:checked~label i.fa:before {
+    color: #CCC;
+}
+
+.text-area {
+    resize: none;
+}
+.btn-enviar{
+    display: flex;
+    justify-content: center;
+}
+.div-mapa{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.mapa{
+    width: 100%;
+
+}
