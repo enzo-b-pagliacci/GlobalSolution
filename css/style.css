@@ -128,6 +128,9 @@
     }
 
 
+    
+
+
 }
 
 /* media de tablet  */
@@ -267,6 +270,8 @@
         background-color: #fff;
     }
 
+    
+
 
 
 }
@@ -358,6 +363,11 @@
     }
 
 
+    
+
+    
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -430,6 +440,13 @@
         width: 96%;
         border-radius: 5px;
         background-color: #fff;
+    }
+
+
+   
+
+    .piqueri{
+        margin-top: 12%;
     }
 
 
@@ -526,13 +543,7 @@
     text-align: justify;
 }
 
-.img-card {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
 
-}
 
 .icones-parques {
     margin-top: 5%;
@@ -564,6 +575,7 @@
     margin-left: 1%;
     width: 50%;
     border-radius: 5px;
+}
 
 .star {
     color: rgb(253, 237, 93);
@@ -598,4 +610,18 @@
 .mapa{
     width: 100%;
 
+}
+
+.img-card {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.link-modal{
+    /* white-space: normal; */
+    word-wrap: break-word;
+    width: 300px;
 }
