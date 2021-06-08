@@ -57,6 +57,69 @@
         margin-right: 13%;
     }
 
+    .login-card {
+        background-color: #212529;
+        margin-left: 25%;
+        margin-top: 5%;
+        width: 50%;
+        border: 2px solid #2382ff;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .email-login {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .senha-login {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .genero-cadastrar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .data-cadastrar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+
+    #idTxtEmail {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    #idTxtPass {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    .cadastrar-genero {
+        border: 2px solid #2382ff;
+        width: 90%;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
 
 }
 
@@ -84,11 +147,23 @@
         margin-right: 35%;
     }
 
-
     .lo-parque {
         margin-left: 14%;
         margin-bottom: 2%;
     }
+
+    .login-card {
+        background-color: #212529;
+        margin-left: 20%;
+        margin-top: 5%;
+        width: 60%;
+        border: 2px solid #2382ff;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+
+
 }
 
 /* media de celular */
@@ -118,6 +193,72 @@
         text-align: justify;
         margin-top: 2%;
     }
+
+    .login-card {
+        background-color: #212529;
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 90%;
+        border: 2px solid #2382ff;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .email-login {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .senha-login {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .genero-cadastrar {
+        display: flex;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+        flex-direction: column;
+    }
+
+    .data-cadastrar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+
+    #idTxtEmail {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 96%;
+        border-radius: 5px;
+    }
+
+    #idTxtPass {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 96%;
+        border-radius: 5px;
+    }
+
+    .cadastrar-genero {
+        border: 2px solid #2382ff;
+        width: 96%;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+
+
 }
 
 
@@ -153,6 +294,60 @@
         margin-right: 13%;
     }
 
+    .email-login {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .senha-login {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .genero-cadastrar {
+        display: flex;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+        flex-direction: row;
+    }
+
+    .data-cadastrar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+
+    #idTxtEmail {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    #idTxtPass {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    .cadastrar-genero {
+        border: 2px solid #2382ff;
+        width: 90%;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -173,6 +368,60 @@
         text-align: justify;
         margin-top: 2%;
     }
+
+    .email-login {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .senha-login {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .genero-cadastrar {
+        display: flex;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+        flex-direction: column;
+    }
+
+    .data-cadastrar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+
+    #idTxtEmail {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 96%;
+        border-radius: 5px;
+    }
+
+    #idTxtPass {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 96%;
+        border-radius: 5px;
+    }
+
+    .cadastrar-genero {
+        border: 2px solid #2382ff;
+        width: 96%;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
 
 }
 
@@ -278,4 +527,30 @@
 .icones-parques {
     margin-top: 5%;
     font-size: 100px;
+}
+
+.tit-login {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.botao-login {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-botao {
+    background-color: #fff;
+    border: 2px solid #2382ff;
+}
+
+#idDate {
+    border: 2px solid #2382ff;
+    margin-left: 1%;
+    width: 50%;
+    border-radius: 5px;
 }
