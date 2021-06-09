@@ -127,6 +127,14 @@
         margin-right: 5%;
     }
 
+    .rodape-pg-login{
+        margin-top: 8.5%;
+    }
+
+    .rodape-pg-cadastro{
+        margin-top: 7%;
+    }
+
 
     
 
@@ -176,6 +184,15 @@
     .margin-card-meio {
         margin-right: 5%;
     }
+
+    .rodape-pg-cadastro{
+        margin-top: 56.5%;
+    }
+
+    .rodape-pg-login{
+        margin-top: 72%;
+    }
+
 
 }
 
@@ -270,7 +287,13 @@
         background-color: #fff;
     }
 
-    
+    .rodape-pg-cadastro{
+        margin-top: 40%;
+    }
+
+    .rodape-pg-login{
+        margin-top: 70%;
+    }
 
 
 
@@ -517,7 +540,7 @@
     border: 2px solid #2382ff;
     padding-left: 1%;
     padding-right: 1%;
-    border-radius: 20px;
+    border-radius: 5px;
     text-decoration: none;
     color: #212529;
     font-size: 20px;
@@ -624,4 +647,24 @@
     /* white-space: normal; */
     word-wrap: break-word;
     width: 300px;
+}
+
+.link-rodape{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-rodape:hover{
+    color: #2382ff;
+}
+
+.logo{
+ 
+    width: 10%;
+}
+
+.logo-roda{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
